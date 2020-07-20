@@ -1,0 +1,15 @@
+.logo {
+    align-content: center;
+    width: 300px;
+    display: inline-block;
+    height: auto;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+}
+
+.logo img{
+    align-content: center;
+    width: 1000x;
+    height: 500px;
+}
