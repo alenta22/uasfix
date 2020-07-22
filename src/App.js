@@ -35,8 +35,8 @@ const[value, setValue] = useState(0)
       <Route exact path="/homepage" component={HomePage} />
       <Route exact path="/about" component={About} />
       <Route exact path="/barang" component={ListComp} />
-      <Route exact path="/mahasiswa/tambah" component={TambahComp} />
-      <Route exact path="/mahasiswa/edit" component={EditComp} />
+      <Route exact path="/barang/tambah" component={TambahComp} />
+      <Route exact path="/barang/edit" component={EditComp} />
       <Route exact path="/kelas" component={KelasComp} />
       <Route exact path="/hooks" component={HooksComp} />
       <Route exact path="/useEffect" component={HooksUseEffects} />

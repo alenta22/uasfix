@@ -23,7 +23,7 @@ class DaftarComp extends PureComponent {
     }
 
     Addadmin = () => {
-        axios.post(api + '/tambah', {
+        axios.post(api + '/tambahadmin', {
             id_admin: this.state.id_admin,
             username: this.state.username,
             email: this.state.email,
@@ -79,7 +79,7 @@ class DaftarComp extends PureComponent {
                         <FormGroup>
                             <Row>
                                 <Col>
-                                    <Input type="text" name="password" value={this.state.password} onChange={this.handleChange} placeholder="Masukan Nama" />
+                                    <Input type="text" name="password" value={this.state.password} onChange={this.handleChange} placeholder="Masukan Password" />
                                 </Col>
                             </Row>
                         </FormGroup>

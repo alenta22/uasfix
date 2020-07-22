@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const Login = () => {
+const LoginComp = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const onChangeusername = (e) => {
@@ -16,20 +16,20 @@ const Login = () => {
     return (
 
         <div style={{ marginTop: "170px" }}>
-            <div className="container">
-                <div className="row justify-content-center">
+         <div className="container">
+            <div className="row justify-content-center">
                     <div className="col-md-6">
                         <div className="card p-4">
                             <div className="card-body">
                                 <div className="form-group">
                                     <div className="text-left">
-                                        <label>Username</label>
+                                     <label>Username</label>
                                     </div>
                                     <input type="text" placeholder="email" className="form-control" value={username} onChange={onChangeusername} />
                                 </div>
                                 <div className="form-group">
                                     <div className="text-left">
-                                        <label>Password</label>
+                                     <label>Password</label>
                                     </div>
                                     <input type="password" placeholder="password" className="form-control" value={password} onChange={onChangePassword} />
                                 </div>
@@ -39,7 +39,7 @@ const Login = () => {
                                     <div className="col-md-6 text-left">
 
                                         <button>
-                                            <Link to="/home" className="btn btn-primary text-left">Masuk</Link>
+                                            <Link to="/homepage" className="btn btn-primary text-left">Masuk</Link>
                                         </button>
 
                                     </div>
@@ -67,4 +67,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default LoginComp
