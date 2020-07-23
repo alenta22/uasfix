@@ -25,7 +25,7 @@ const LoginComp = () => {
                                     <div className="text-left">
                                      <label>Username</label>
                                     </div>
-                                    <input type="text" placeholder="email" className="form-control" value={username} onChange={onChangeusername} />
+                                    <input type="text" placeholder="nama" className="form-control" value={username} onChange={onChangeusername} />
                                 </div>
                                 <div className="form-group">
                                     <div className="text-left">
